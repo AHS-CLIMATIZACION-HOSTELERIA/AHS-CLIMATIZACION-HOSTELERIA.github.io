@@ -17,7 +17,7 @@
     <link rel="icon" type="image/png" href="logo-clima.png">
     <link rel="apple-touch-icon" href="logo-clima.png">
     
-    <!-- ETIQUETAS SEO VISUALES (REAJUSTADO A TUS PRIORIDADES DE NEGOCIO) -->
+    <!-- ETIQUETAS SEO VISUALES -->
     <title>AHS CLIMATIZACIÓN Y HOSTELERÍA ❄️ Aire Acondicionado y Hostelería 🛎️</title>
     <meta name="description" content="❄️ Instalación y reparación de aire acondicionado. 🛎️ Venta y servicio técnico de maquinaria de hostelería. ¡Asistencia rápida y garantizada! Consúltanos.">
     <meta name="keywords" content="ahs, ahs clima, ahsclima, ahs_climatizacion, ahs climatizacion, ahs hosteleria, instalacion aire acondicionado, reparacion aire acondicionado, maquinaria hosteleria, reparacion hosteleria, aire acondicionado Aranjuez, aerotermia, suelo radiante, empresa climatización cerca de mí, fancoil, frigoríficos, cámaras frigoríficas, vinotecas, Madrid, Aranjuez, Toledo, Móstoles, Getafe, Leganés, Fuenlabrada, Valdemoro, Seseña, Ontígola, Ocaña, Yepes, Ciempozuelos, Pinto">
@@ -29,7 +29,7 @@
     <meta property="og:description" content="Instalación y reparación de Aire Acondicionado y Maquinaria de Hostelería. Servicio técnico rápido y de calidad.">
     <meta property="og:type" content="website">
 
-    <!-- DATOS ESTRUCTURADOS GIGANTES (Aquí están los pueblos ocultos para Google) -->
+    <!-- DATOS ESTRUCTURADOS GIGANTES (Negocio + Pueblos Ocultos + FAQ) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -65,6 +65,35 @@
             "Madrid", "Aranjuez", "Toledo", "Móstoles", "Getafe", "Leganés", "Fuenlabrada", "Valdemoro", "Seseña", "Ontígola", "Ocaña", "Yepes", "Ciempozuelos", "Pinto"
           ],
           "priceRange": "€€"
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "¿A qué se dedica AHS Climatización?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Somos especialistas en la instalación y reparación de maquinaria de hostelería y sistemas de aire acondicionado, avalados por más de 30 años de experiencia profesional en el sector."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Cómo puedo solicitar un presupuesto?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Puede solicitarnos un presupuesto detallado y sin compromiso. Contacte con nosotros por correo electrónico en ahsclimatizacion@gmail.com, o llámenos a nuestras oficinas de Aranjuez de 9h a 14h, o directamente al soporte técnico de 9h a 19h."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Tengo un caso complejo en mi hogar o negocio, ¿pueden realizar una visita técnica?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sí, por supuesto. Póngase en contacto con nosotros describiendo el problema y nuestro equipo especializado acudirá para realizar un diagnóstico preciso y proponerle la mejor solución."
+              }
+            }
+          ]
         }
       ]
     }
@@ -196,6 +225,44 @@
         .contact-card p { font-size: 15px; color: #aaa; margin-bottom: 15px; }
         .badge { background: #333; color: #fff; padding: 5px 12px; border-radius: 20px; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; }
 
+        /* FAQ minimalista al final */
+        .small-faq {
+            max-width: 900px;
+            margin: 50px auto 0;
+            padding: 0 5vw;
+            text-align: center;
+            font-size: 14px; /* Pequeño */
+            color: var(--text-muted);
+        }
+        .small-faq details {
+            margin-bottom: 10px;
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.05);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .small-faq summary {
+            padding: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            outline: none;
+            list-style: none; /* Ocultar marcador por defecto */
+        }
+        .small-faq summary::after {
+            content: '+';
+            float: right;
+            font-size: 18px;
+            margin-top: -3px;
+        }
+        .small-faq details[open] summary::after {
+            content: '-';
+        }
+        .small-faq p {
+            padding: 0 15px 15px;
+            color: #aaa;
+            margin: 0;
+        }
+
         footer { padding: 40px; text-align: center; background: var(--bg-dark); color: #555; font-size: 13px; border-top: 1px solid rgba(255,255,255,0.05); }
 
         @media (max-width: 900px) {
@@ -256,7 +323,7 @@
             <div class="text-content reveal-right">
                 <img src="logo-clima.png" alt="AHS Clima Efecto" class="logo-clima-display reveal-scale">
                 <h2 class="section-title">Precisión en cada detalle.</h2>
-                <p class="section-desc">Entendemos que cada cliente y cada local son únicos. Escuchamos tus necesidades para diseñar soluciones a medida en climatización, ventilación, <strong>suelo radiante</strong> y aerotermia, ofreciendo siempre la máxima excelencia.</p>
+                <p class="section-desc">Entendemos que cada cliente y cada local son únicos. Escuchamos tus necesidades para diseñar soluciones a medida en climatización, ventilación, suelo radiante y aerotermia, ofreciendo siempre la máxima excelencia.</p>
                 <p class="section-desc">A nuestra experiencia sumamos el trabajo exclusivamente con las mejores máquinas para dar garantía de resultados duraderos y un funcionamiento impecable.</p>
             </div>
             <div class="img-wrapper reveal-left delay-1">
@@ -280,7 +347,7 @@
             </div>
             <div class="value-card reveal-up delay-3">
                 <h3>Calidad Garantizada</h3>
-                <p>La fiabilidad es nuestra prioridad. Trabajamos exclusivamente con las mejores máquinas para dar garantía de resultados duraderos y un funcionamiento impecable.</p>
+                <p>La fiabilidad es nuestra priority. Trabajamos exclusivamente con las mejores máquinas para dar garantía de resultados duraderos y un funcionamiento impecable.</p>
             </div>
         </div>
     </section>
@@ -314,10 +381,26 @@
             </a>
             <a href="https://maps.app.goo.gl/c282AAYed2RabEtU7" target="_blank" class="contact-card reveal-up delay-3">
                 <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.243-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-                <h4 style="font-size: 19px;">C/ Mirasierra, 6, 28300 Aranjuez</h4>
+                <h4>C/ Mirasierra, 6. Aranjuez</h4>
                 <p>Madrid</p>
                 <span class="badge">Oficina: 9:00h - 14:00h</span>
             </a>
+        </div>
+
+        <!-- FAQ minimalista al final -->
+        <div class="small-faq reveal-up delay-3">
+            <details>
+                <summary>¿A qué se dedica AHS Climatización?</summary>
+                <p>Somos especialistas en la instalación y reparación de maquinaria de hostelería y sistemas de aire acondicionado, avalados por más de 30 años de experiencia profesional en el sector.</p>
+            </details>
+            <details>
+                <summary>¿Cómo puedo solicitar un presupuesto?</summary>
+                <p>Puede solicitarnos un presupuesto detallado y sin compromiso. Contacte con nosotros por correo electrónico en ahsclimatizacion@gmail.com, o llámenos a nuestras oficinas de Aranjuez de 9h a 14h, o directamente al soporte técnico de 9h a 19h.</p>
+            </details>
+            <details>
+                <summary>Tengo un caso complejo en mi hogar o negocio, ¿pueden realizar una visita técnica?</summary>
+                <p>Sí, por supuesto. Póngase en contacto con nosotros describiendo el problema y nuestro equipo especializado acudirá para realizar un diagnóstico preciso y proponerle la mejor solución.</p>
+            </details>
         </div>
     </section>
 
