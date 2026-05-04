@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ahs-climatizacion-hosteleria.github.io/sitemap.xml
